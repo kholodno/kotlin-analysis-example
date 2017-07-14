@@ -45,6 +45,7 @@ complexity:
     threshold: 150
   ComplexMethod:
     threshold: 10
+  # Срабатывает, если количество функций в классе больше указанного числа
   TooManyFunctions:
     threshold: 10
   ComplexCondition:

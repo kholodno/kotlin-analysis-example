@@ -32,7 +32,7 @@ fun longparameterlist(a: Any, b: Int, c: Boolean, d: Int, e: Int, f: String) {
 
 }
 
-class LargeClass() {
+class TooManyFunctions() {
     val a = 1
     val b = 2
 
@@ -79,6 +79,78 @@ class LargeClass() {
     }
 
     fun ccdfgdfgcc(){
+        if (a >b) {
+            Log.e("a","a")
+        }
+    }
+
+    fun c1ccasdasc(){
+        if (a >b) {
+            Log.e("a","a")
+        }
+    }
+
+    fun ccadasdc3c(){
+        if (a >b) {
+            Log.e("a","a")
+        }
+    }
+
+    fun sdfcdasdasdccc(){
+        if (a >b) {
+            Log.e("a","a")
+        }
+    }
+
+    fun sasdassdvsdv(){
+        if (a >b) {
+            Log.e("a","a")
+        }
+    }
+
+    fun ccasasdasddasdcc(){
+        if (a >b) {
+            Log.e("a","a")
+        }
+    }
+
+    fun ccdfasdasdgdfgcc(){
+        if (a >b) {
+            Log.e("a","a")
+        }
+    }
+    //
+    fun c1ccasdbbbasc(){
+        if (a >b) {
+            Log.e("a","a")
+        }
+    }
+
+    fun ccadbbasdc3c(){
+        if (a >b) {
+            Log.e("a","a")
+        }
+    }
+
+    fun sdfcaadasdasdccc(){
+        if (a >b) {
+            Log.e("a","a")
+        }
+    }
+
+    fun sasdassjjdvsdv(){
+        if (a >b) {
+            Log.e("a","a")
+        }
+    }
+
+    fun ccasaserdasddasdcc(){
+        if (a >b) {
+            Log.e("a","a")
+        }
+    }
+
+    fun ccdfasddasdgdfgcc(){
         if (a >b) {
             Log.e("a","a")
         }
