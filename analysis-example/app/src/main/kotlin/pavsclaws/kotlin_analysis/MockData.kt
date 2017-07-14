@@ -17,6 +17,6 @@ data class Person(val name: String,
 fun doSomething() {
     val a = 1
     val b = 2
-    a+b
-    b*a
+    a + b
+    b * a
 }

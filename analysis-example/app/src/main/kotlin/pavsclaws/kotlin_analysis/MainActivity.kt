@@ -2,8 +2,6 @@ package pavsclaws.kotlin_analysis
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import pavsclaws.kotlin_analysis.potential_bugs.duplicateCaseInWhenExpression
-import pavsclaws.kotlin_analysis.potential_bugs.throwException
 
 class MainActivity : AppCompatActivity() {
 

@@ -59,39 +59,49 @@ code-smell:
     weight: 0.45
     base: 0.5
 
+# Данный блок вызывается специально командой detektFormat
 formatting:
   active: true
   useTabs: true
   Indentation:
     active: false
     indentSize: 4
+  # Излишние пустые строки.
   ConsecutiveBlankLines:
     active: true
     autoCorrect: true
+  # Излишние пробелы.
   MultipleSpaces:
     active: true
     autoCorrect: true
+  # Нет пробелов после запятой.
   SpacingAfterComma:
     active: true
     autoCorrect: true
+  # Нет пробелов после ключевого слово.
   SpacingAfterKeyword:
     active: true
     autoCorrect: true
+  # Нет пробелов вокруг двоеточия.
   SpacingAroundColon:
     active: true
     autoCorrect: true
+  # Нет пробелов фигурных скобок.
   SpacingAroundCurlyBraces:
     active: true
     autoCorrect: true
+  # Нет пробелов вокруг оператора (+, - и др.).
   SpacingAroundOperator:
     active: true
     autoCorrect: true
   TrailingSpaces:
     active: true
     autoCorrect: true
+  # Убрать излишние импорты.
   UnusedImports:
     active: true
     autoCorrect: true
+  # Использование необязательной точки с запятой.
   OptionalSemicolon:
     active: true
     autoCorrect: true

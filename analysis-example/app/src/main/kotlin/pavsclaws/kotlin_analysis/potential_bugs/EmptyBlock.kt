@@ -10,4 +10,4 @@ fun emptyBlock() {
     }
 }
 
-fun doNothing(){}
+fun doNothing() {}
