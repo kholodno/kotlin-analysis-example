@@ -35,6 +35,7 @@ fun longparameterlist(a: Any, b: Int, c: Boolean, d: Int, e: Int, f: String) {
 class TooManyFunctionsAndLargeClass() {
     val a = 1
     val b = 2
+    val ошибка = "qwqwe"
 
     fun cccc(){
         if (a >b) {
