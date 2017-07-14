@@ -159,7 +159,14 @@ class TooManyFunctionsAndLargeClass() {
         }
     }
 
-    fun sdfcaadasdasdccc(){
+    /**
+     * DODODO
+     * DODOD
+     * @sdfcaadasdasdccc
+     * [a] - aaa
+     *
+     * */
+    private fun sdfcaadasdasdccc(){
         if (a >b) {
             Log.e("a","a")
         }

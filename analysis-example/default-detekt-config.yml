@@ -119,12 +119,16 @@ style:
 
 comments:
   active: true
+  # Срабатывает, при присутствии документации к приватному методу.
   CommentOverPrivateMethod:
     active: true
+  # Срабатывает, при присутствии документации к приватному полю.
   CommentOverPrivateProperty:
     active: true
+  # Срабатывает, при отсутствии документации к публичному классу.
   NoDocOverPublicClass:
     active: false
+  # Срабатывает, при отсутствии документации к публичному методу.
   NoDocOverPublicMethod:
     active: false
 
