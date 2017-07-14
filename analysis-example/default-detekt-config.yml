@@ -1,7 +1,7 @@
 autoCorrect: true
 
 # Каждое замечание в имеет свой "вес" в зависимости от принадлежности к ruleSet.
-# В данном блоке производится настройка "весов" для кадого ruleSet и лимит до ошибки и предупреждения.
+# В данном блоке производится настройка "весов" для кадого ruleSet и лимит до ошибки и предупреждения (включительно).
 build:
   warningThreshold: 5
   failThreshold: 10
@@ -13,23 +13,32 @@ build:
 
 potential-bugs:
   active: true
+  # Срабатывает в случае дублирования в when блоках.
   DuplicateCaseInWhenExpression:
     active: true
+  # ???
   EqualsWithHashCodeExist:
     active: true
+  # Срабатывает при излишнем вызове GarbageCollector
+  # TODO: Определить что он считает "излишним"
   ExplicitGarbageCollectionCall:
     active: true
 
+# Вызывается в случе, если try-catch блок слишком общий
+# (например ловит только Exception, даже если там дальше обработка when)
 exceptions:
   active: true
 
+# Вызывается в случае обнаружения любого пустого блока (функции, if, when, catch итд)
 empty-blocks:
   active: true
 
 complexity:
   active: true
+  # Срабатывает, если количество действий в методе больше указанного числа
   LongMethod:
     threshold: 20
+  # Срабатывает, если количество входных параметров у функции больше указанного числа
   LongParameterList:
     threshold: 5
   LargeClass:
