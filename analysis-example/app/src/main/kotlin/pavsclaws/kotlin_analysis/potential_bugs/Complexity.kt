@@ -32,12 +32,39 @@ fun longparameterlist(a: Any, b: Int, c: Boolean, d: Int, e: Int, f: String) {
 
 }
 
-class TooManyFunctions() {
+class TooManyFunctionsAndLargeClass() {
     val a = 1
     val b = 2
 
     fun cccc(){
         if (a >b) {
+            Log.e("a","a")
+            Log.e("a","a")
+            Log.e("a","a")
+            Log.e("a","a")
+            Log.e("a","a")
+            Log.e("a","a")
+            Log.e("a","a")
+            Log.e("a","a")
+            Log.e("a","a")
+            Log.e("a","a")
+            Log.e("a","a")
+            Log.e("a","a")
+            Log.e("a","a")
+            Log.e("a","a")
+            Log.e("a","a")
+            Log.e("a","a")
+            Log.e("a","a")
+            Log.e("a","a")
+            Log.e("a","a")
+            Log.e("a","a")
+            Log.e("a","a")
+            Log.e("a","a")
+            Log.e("a","a")
+            Log.e("a","a")
+            Log.e("a","a")
+            Log.e("a","a")
+            Log.e("a","a")
             Log.e("a","a")
         }
     }
@@ -149,7 +176,6 @@ class TooManyFunctions() {
             Log.e("a","a")
         }
     }
-
     fun ccdfasddasdgdfgcc(){
         if (a >b) {
             Log.e("a","a")
